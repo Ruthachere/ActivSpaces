@@ -1,0 +1,241 @@
+body{
+    background: linear-gradient(165deg, rgba(101, 2, 119, 0.981),rgba(247, 10, 53, 0.865),rgba(251, 169, 4, 0.974));
+    animation:color 12s ease-in-out ;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-family: Verdana, sans-serif;
+}
+li {
+    list-style: none;
+    padding: 0px 40px 0px 0px;
+}
+.logo{
+    padding: 0px 0px 0px 40px; 
+}
+li a, .logo a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+ul{
+    display: flex;
+}
+.navdiv{
+    margin-top: 10px;
+    background-color: white;
+}
+.inputsection{
+    padding: 15px 40px 15px 40px; 
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 800px;
+    height: 75%;
+    border-right: none;
+    background-color: rgba(234, 236, 238, 0.545);
+    border: 1px solid rgba(234, 236, 238, 0.545);
+    outline: none;
+}
+.btn-two{
+    height: 84%;
+    width: 15%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.searchbar{
+    display: flex;
+}
+.btn-one{
+    height: 82%;
+    width: 7%;
+    border-right: none;
+    background-color: rgba(234, 236, 238, 0.545);
+    border: 1px solid rgba(234, 236, 238, 0.545);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-three, .btn-four{
+    height: 80%;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.btn-four{
+    border: none;
+    background:none;
+}
+.btn-three{
+    margin-right: 10px;
+}
+h3{
+    margin:0px;
+    font-size: 40px;
+}
+.fa-heart{
+    padding-right: 10px;
+}
+
+.sector-one{
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(65deg, rgba(238, 159, 3, 0.974), rgba(247, 10, 53, 0.904));
+}
+.container-two{
+    margin: auto;
+    width: 55%;
+    color: white;
+    text-align: center;
+    padding: 100px 0px 100px 0px;  
+}
+.image-one{
+    width: 30%;  
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.paraOne{
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-five{
+    width: 40%;
+    padding: 15px;
+    margin-top: 15px;
+    background: rgba(200, 36, 3, 0.836);
+    border: 2px solid rgba(238, 87, 56, 0.836);;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+
+.sector-two{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid gray;
+}
+.content-one{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding-bottom: 40px;
+}
+.subcontent{
+    padding: 30px 0px 30px 0px;
+}
+.image-four{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+.comparison-container{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
+}
+.content-two{
+     background-color: rgb(119, 119, 119);
+     padding: 15px;
+     color: white;
+     font: 500 ;
+}
+.content-three{
+    background: white;
+    padding: 16px;
+}
+.content-four{
+   background:  rgb(238, 238, 238);
+    padding: 16px;
+}
+cite{
+    float: inline-end;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-six{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: linear-gradient(65deg, rgba(170, 8, 199, 0.981),rgba(247, 10, 53, 0.865),rgba(251, 169, 4, 0.974));
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.div2{
+    margin: auto;
+    width: 25%;
+    margin-top: 70px;
+}
+.head-two{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+h6{
+    font-size: 25px;
+    margin: 0;
+}
+.ul-one{
+    display: flex;
+    justify-content: center;
+
+}
+.list-one{
+    display: block;
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 19px;
+    font-weight: 540;
+    font-family: 'Arimo', sans-serif;
+    padding-right: 2rem;
+}
+.coloredlist{
+    color: rgb(211, 1, 1);
+}
+.img-one{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+.ul-two{
+    display: block;
+    line-height: 1.7;
+}
+.grid-container{
+    background-color: white;
+    padding: 60px 40px 60px 40px;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 35px;
+    color: black;
+
+}
+h5{
+    line-height: 0;
+    font-size: 18px;
+}
