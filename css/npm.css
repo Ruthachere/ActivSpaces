@@ -1,5 +1,4 @@
 body{
-    /* background-color: orange; */
     background: linear-gradient(135deg, rgba(101, 2, 119, 0.981),rgba(247, 10, 53, 0.865),rgba(251, 169, 4, 0.974));
     animation:color 12s ease-in-out ;
     width: 100%;

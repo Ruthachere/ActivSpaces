@@ -1,0 +1,319 @@
+body{
+    margin: auto;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(135deg,
+     rgba(101, 2, 119, 0.981),
+      rgba(247, 10, 53, 0.904),
+      rgba(238, 159, 3, 0.974));
+    animation:color 12s ease-in-out ;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.navlist {
+    list-style: none;
+    padding: 0px 40px 0px 0px;
+}
+p{
+    padding: 0px 0px 0px 40px; 
+}
+li a, p a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+ul{
+    display: flex;
+}
+.navdiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.inputsection{
+    padding: 15px 40px 15px 40px; 
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 800px;
+    height: 75%;
+    border-right: none;
+    background-color: rgba(234, 236, 238, 0.545);
+    border: 1px solid rgba(234, 236, 238, 0.545);
+    outline: none;
+}
+.btn-two{
+    height: 84%;
+    width: 15%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.searchbar{
+    display: flex;
+}
+.btn-one{
+    height: 82%;
+    width: 7%;
+    border-right: none;
+    background-color: rgba(234, 236, 238, 0.545);
+    border: 1px solid rgba(234, 236, 238, 0.545);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-three, .btn-four{
+    height: 80%;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.btn-four{
+    border: none;
+    background:none;
+}
+.btn-three{
+    margin-right: 10px;
+}
+h3{
+    margin:0px;
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+.fa-heart{
+    padding-right: 10px;
+}
+.container-one{
+    position: relative;
+    background-image: url(https://static.npmjs.com/attachments/ck3uwdsg8mstodr74z4lcdmy0-bg-pro.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    margin: auto;
+    padding: 50px 0px 40px 0px;
+    width: 45%;
+    text-align: center;
+    color: black;
+    line-height: 1.4;
+}
+.image-one{
+    position: absolute;
+    top: 12%;
+    right: 0%;
+   height: 500px;
+}
+.image-two{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    height: 600px;
+}
+.image-three{
+    width: 30%;
+    height: 30%;
+}
+h2{
+    font-size: 50px;
+}
+.para-one{
+    font-size: 22px;
+    font-weight: 540;
+}
+.getBtn{
+    background-color:rgba(247, 10, 53, 0.865) ;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40%;
+    padding: 10px;
+    border:  4px solid rgba(247, 10, 53, 0.865);
+    border-bottom: 4px solid orange;
+    margin: 20px 0px 20px 0px;
+}
+.content-one{
+    padding-top: 30px;
+    display: block;
+}
+.subcontent{
+    padding: 30px 0px 30px 0px;
+}
+.image-four{
+    width: 70px;
+    height: 70px;
+}
+.sector-one{
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(65deg, rgba(238, 159, 3, 0.974), rgba(247, 10, 53, 0.904));
+}
+.container-two{
+    margin: auto;
+    width: 45%;
+    color: white;
+    text-align: center;
+    padding: 100px 0px 100px 0px;  
+}
+
+.image-five{
+    width: 40%;
+    padding-bottom: 30px;
+}
+.head-one{
+    font-size: 30px;
+    font-weight: 540;
+}
+.btn-five{
+    width: 55%;
+    padding: 15px;
+    margin-top: 15px;
+    background: rgba(238, 87, 56, 0.836);
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+}
+.sector-two{
+    background-color: white;
+    padding: 90px;
+    padding-bottom: 50px;
+}
+
+.comparison-container{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    margin-top: -140px;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
+
+}
+.content-two{
+     background-color: rgb(119, 119, 119);
+     padding: 8px;
+     color: white;
+     font: 500 ;
+     font-size:25px;
+}
+.content-three{
+    background: white;
+    padding: 16px;
+}
+.content-four{
+   background:  rgb(238, 238, 238);
+    padding: 16px;
+}
+cite{
+    float: inline-end;
+    width: 41%;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.head-two{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.ul-one{
+    display: flex;
+    justify-content: center;
+
+}
+.list-one{
+    display: block;
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 19px;
+    font-weight: 540;
+    font-family: 'Arimo', sans-serif;
+    padding-right: 2rem;
+}
+.coloredlist{
+    color: rgb(211, 1, 1);
+}
+.img-one{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+.sector-three{
+    padding: 30px 40px 90px 40px;
+    background-color: white;
+    border-bottom: 1px solid rgb(166, 167, 168);
+}
+.container-four{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.content-five{
+    margin-bottom: 30px;
+}
+.content-six, .content-five{
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
+}
+.navspan a{
+    color: rgba(255, 0, 0, 0.589);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.div1{
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    width: 60px;
+    height: 60px;
+    border: solid 3px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to top, #e02aff, #c12127, #ff4b01, #fb8817);
+    background-origin: border-box;
+     background-clip: content-box, border-box; 
+     line-height: calc(60px - 6px); 
+     vertical-align: middle; 
+     border-radius: 100px; 
+     box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+ 
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.para-two{
+    padding: 0px;
+}
+.ul-two{
+    display: block;
+    line-height: 1.7;
+}
+.grid-container{
+    background-color: white;
+    padding: 60px 40px 60px 40px;
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 35px;
+    color: black;
+
+}
+h5{
+    line-height: 0;
+    font-size: 18px;
+}
